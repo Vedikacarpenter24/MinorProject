@@ -117,7 +117,7 @@ header nav ul li a:hover {
 .banner {
     min-height: 100vh;
     width: 100%;
-    background-image: url("/IMAGES/banner.webp");
+    background-image: url(./banner.webp);
     background-size: cover;
     background-attachment: fixed;
     padding-left: 3%;

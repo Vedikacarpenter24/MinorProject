@@ -317,7 +317,7 @@ header nav ul li a:hover {
     background-color: var(--themeRed);
     color: #fff;
     transform: translate(-50%);
-    bottom: 15px;
+    bottom: -15px;
     border-radius: 60px;
     padding: 7px 15px;
     border: 0;

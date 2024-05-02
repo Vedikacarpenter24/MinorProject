@@ -253,7 +253,7 @@ header nav ul li a:hover {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    border-radius: 5px 5px 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .programs .boxContainer .box .cardImage:after {
@@ -274,18 +274,18 @@ header nav ul li a:hover {
     background-image: url("./images\ \(1\).webp");
 }
 
-.programs .boxContainer .box:nth-child(1) .cardImage,
-.programs.boxContainer .box:nth-child(1) .cardImage:after {
+.programs .boxContainer .box:nth-child(2) .cardImage,
+.programs.boxContainer .box:nth-child(2) .cardImage:after {
     background-image: url("./images\ \(2\).webp");
 }
 
-.programs .boxContainer .box:nth-child(1) .cardImage,
-.programs.boxContainer .box:nth-child(1) .cardImage:after {
+.programs .boxContainer .box:nth-child(3) .cardImage,
+.programs.boxContainer .box:nth-child(3) .cardImage:after {
     background-image: url("./image\(3\).webp");
 }
 
-.programs .boxContainer .box:nth-child(1) .cardImage,
-.programs.boxContainer .box:nth-child(1) .cardImage:after {
+.programs .boxContainer .box:nth-child(4) .cardImage,
+.programs.boxContainer .box:nth-child(4) .cardImage:after {
     background-image: url("./image\ \(4\).webp");
 }
 

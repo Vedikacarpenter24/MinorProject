@@ -271,22 +271,22 @@ header nav ul li a:hover {
 }
 
 .programs .boxContainer .box:nth-child(1) .cardImage,
-.programs.boxContainer .box:nth-child(1) .cardImage:after {
+.programs .boxContainer .box:nth-child(1) .cardImage:after {
     background-image: url("./images\ \(1\).webp");
 }
 
 .programs .boxContainer .box:nth-child(2) .cardImage,
-.programs.boxContainer .box:nth-child(2) .cardImage:after {
+.programs .boxContainer .box:nth-child(2) .cardImage:after {
     background-image: url("./images\ \(2\).webp");
 }
 
 .programs .boxContainer .box:nth-child(3) .cardImage,
-.programs.boxContainer .box:nth-child(3) .cardImage:after {
+.programs .boxContainer .box:nth-child(3) .cardImage:after {
     background-image: url("./image\(3\).webp");
 }
 
 .programs .boxContainer .box:nth-child(4) .cardImage,
-.programs.boxContainer .box:nth-child(4) .cardImage:after {
+.programs .boxContainer .box:nth-child(4) .cardImage:after {
     background-image: url("./image\ \(4\).webp");
 }
 

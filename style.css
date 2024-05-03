@@ -430,3 +430,95 @@ header nav ul li a:hover {
         opacity:1;
     }
     /* gallery section ends */
+
+    /* Join Us section starts from here */
+
+.join{
+    background-color:#f05c68;  
+    color:#fff;
+}
+
+.join .joinTitle{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.join .joinTitle span{
+    font-weight: 800;
+}
+
+.join button{
+    padding: 7px 15px;
+    margin-top: 20px;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.join button .joinNow{
+    margin-right: 10px;
+    background-color: #424242;
+    color:#fff;
+}
+.join button .adoptBtn{
+    background-color: var(--gray);
+}
+/* Join us section ends here */
+
+/* Footer start from here */
+
+footer{
+    background-color: #181818;
+    color: #7f7f7f;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid ;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+}
+
+footer p{
+    margin-bottom:10px;
+}
+
+footer .linksContainer ul {
+   list-style-type: none;
+}
+
+footer .linksContainer ul li a{
+    text-decoration: none;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .newsLetterContainer img{
+    height: 40px;
+    margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+    background-color: transparent;
+    border: 1px solid #7f7f7f;
+    outline: none;
+    padding: 10px 15px;
+    width:100%;
+    margin-top: 10px;
+    color: #ccc;
+    border-radius: 30px;
+}
+
+/* Footer ends here */

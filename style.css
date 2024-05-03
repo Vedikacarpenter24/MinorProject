@@ -3,7 +3,7 @@
 
 :root {
     --themeRed: #e43a47;
-    --gray: #e41616;
+    --gray: #efefef;
 }
 
 html {
@@ -36,8 +36,9 @@ p {
     margin: auto;
 }
 
+
 .sectionTitle {
-    width: 300ox;
+    width: 300px;
     border-bottom: 3px solid var(--themeRed);
     text-align: center;
     font-size: 2rem;
@@ -48,7 +49,6 @@ p {
     text-transform: uppercase;
 
 }
-
 .sectionTitle::after {
     display: inline-block;
     content: "";
@@ -150,12 +150,11 @@ header nav ul li a:hover {
     margin-top: 10px;
 }
 
-.button {
-
+.banner button {
     background-color: var(--themeRed);
     border: 0;
     outline: none;
-    color: #991212;
+    color: #f8f3f3;
     padding: 10px 15px;
     margin-top: 20px;
     font-size: 13px;
@@ -165,7 +164,7 @@ header nav ul li a:hover {
 
 /*HOME STYLE END HERE*/
 
-/* ABOOUT SEECTION STARTS */
+/* ABOUT SEECTION STARTS */
 
 #aboutSection .cards {
     display: flex;
@@ -178,7 +177,7 @@ header nav ul li a:hover {
 
 #aboutSection .cards>div {
     width: 350px;
-    background-color: var(--white);
+    background-color: var(--gray);
     padding: 35px;
     color: #444;
     text-align: center;
@@ -224,6 +223,7 @@ header nav ul li a:hover {
 }
 
 /* ABOUT SECTION ENDS HERE */
+
 /* Program Section start */
 
 .programs {
@@ -311,9 +311,9 @@ header nav ul li a:hover {
     color: var(--themeRed);
 }
 
-.programs.boxContainer.box button {
+.programs .boxContainer .box button {
     position: absolute;
-    Left: 50%;
+    left: 50%;
     background-color: var(--themeRed);
     color: #fff;
     transform: translate(-50%);
@@ -323,6 +323,8 @@ header nav ul li a:hover {
     border: 0;
     outline: none;
     cursor: pointer;
+  
+   
 }
 
 /* Program Section ends */
@@ -373,10 +375,11 @@ font-weight: 300;
 font-size: 15px;
 Line-height: 20px;
 margin: 10px 0 30px;
+
 }
 
-.education.educationContainer button{
-background-color: var(--themefted);
+.education .educationContainer button{
+background-color: var(--themeRed);
 border: 0;
 color:#fff;
 padding: 10px 25px;
@@ -386,4 +389,3 @@ outline: none;
 }
 
 /* education section end */
-

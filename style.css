@@ -364,7 +364,7 @@ top: 35vh;
 color: #fff;
 text-shadow: 0 3px #000;
 padding: 30px;
-left: 5.9%;   
+left: 10%;   
 }
 
 .education .educationContainer h3 {
@@ -390,3 +390,45 @@ outline: none;
 }
 
 /* education section end */
+
+/*gallery start here*/
+
+.gallery .galleryContainer{
+    column-count: 4;
+    column-gap: 20px;
+}
+
+.gallery .galleryContainer .item {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;    
+}
+
+.gallery.galleryContainer img{
+    width: 100%;
+    display: block;
+    transition:0.4s;
+}
+
+.gallery .galleryContainer .title {
+    position: absolute;
+    background-color: var(--gray);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.gallery .galleryContainer .item:hover .title{
+    opacity: 1;
+}
+
+.gallery .galleryContainer .item:hover img{
+    transform: scale(1.2);
+}
+
+/*gallery end here*/

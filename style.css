@@ -326,3 +326,64 @@ header nav ul li a:hover {
 }
 
 /* Program Section ends */
+
+/* education section start */
+
+.education {
+height: 100%;
+width: 100%;
+
+position: relative;
+}
+.education video{
+    height: 100%;
+    
+}
+
+.education .BACKGROUNDCLIP {
+position: absolute;
+top: 0;
+Left: 0;
+width: 100vw;
+height: 100vh;
+}
+
+.education .sectionTitle{
+color:#fff;
+text-shadow: 0 0 4px #000;
+}
+
+.education .educationContainer {
+position: absolute;
+background-color: #00000096;
+width: 600px;
+top: 35vh;
+color: #fff;
+text-shadow: 0 3px #000;
+padding: 30px;
+left: 15%;   
+}
+
+.education .educationContainer h3 {
+font-size: 35px;
+font-weight: 300;
+}
+
+.education .educationContainer p {
+font-size: 15px;
+Line-height: 20px;
+margin: 10px 0 30px;
+}
+
+.education.educationContainer button{
+background-color: var(--themefted);
+border: 0;
+color:#fff;
+padding: 10px 25px;
+font-weight: bold;
+font-size: 14px;
+outline: none;
+}
+
+/* education section end */
+

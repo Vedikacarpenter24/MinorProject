@@ -407,7 +407,7 @@ outline: none;
 .gallery.galleryContainer img{
     width: 100%;
     display: block;
-    transition:0.4s;
+    transition: 0.4s;
 }
 
 .gallery .galleryContainer .title {
